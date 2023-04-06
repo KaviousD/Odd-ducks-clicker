@@ -57,7 +57,7 @@ function renderProducts() {
   } else {
     views[product2Image] = 1;
   }
-
+  // if statement hold the other images and stops them from cycling thru.
   // this is the getRandomNumber for product 3
   const product3Image = getRandomNumber(imageFiles);
   image3.src = `img/${product3Image}`;
